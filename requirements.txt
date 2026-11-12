@@ -1,0 +1,4 @@
+# Fallback / documentation only: when a Dockerfile is present, repo2docker
+# ignores requirements.txt and the Dockerfile installs jupyter-server-proxy
+# itself. Kept so the proxy dependency is explicit if the Dockerfile is removed.
+jupyter-server-proxy
